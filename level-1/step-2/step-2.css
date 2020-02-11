@@ -1,12 +1,14 @@
 /* Step-2 You can assign padding to all sides of a container by using the padding shorthand property. */
 
 .content-left {
+padding: 20px;
  
 }
 
 /* Step 2 You can assign padding to all sides of a container by using the padding shorthand property. */
 
 .header {
+    padding: 20px;
   
 }
 
@@ -15,17 +17,25 @@
 
 .profile-image-container {
     background: #96F0F2;
+    width: auto;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 /* Step-2 One option to get the container to fill the parent container is to use width: auto; */
 
 .profile-links-container {
     background: #12F3F7;
+    width: auto;
+    height: 480px;
 }
 
 /* Step-2 You can either use float left to get this element to in the desired location. */
 
 .logo-container {
+    width: 30%;
+    height: 60px;
+    float: left:
     background: #4F4949;
 }
 
@@ -33,6 +43,9 @@
 /* Step-2 You can either use float right to get this element to in the desired location. */
 
 .menu-container {
+    width: 50px;
+    height: 60px;
+    float: right;
     background: #4F4949;
 }
 
